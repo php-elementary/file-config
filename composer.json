@@ -1,0 +1,23 @@
+{
+    "name":         "elementary/file-config",
+    "description":  "Configure your PHP application with file config (ex.: php or json configs).",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":  "Artiom Vendelev",
+            "email": "artiom@vendelev.ru",
+            "role":  "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "elementary\\config\\Fileconfig\\": "src\\"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "phpunit/phpunit": "^5.7",
+        "elementary/fileabstract-config": "^1.0",
+        "elementary/php-config": "^1.0"
+    }
+}
